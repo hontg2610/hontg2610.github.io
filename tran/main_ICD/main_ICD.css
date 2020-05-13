@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Sawarabi Mincho";
+}
+
+.even p.textnho {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 34px;
+}
+
+.even h2.textto {
+  color: #f9b828;
+  font-size: 58px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hinhnenden {
+  background-color: #2e2e2e;
+  height: 400px;
+}
+
+.kengang {
+  border: 1px solid grey;
+  width: 116px;
+}
+
+.box p.text-box {
+  font-size: 30px;
+  color: orange;
+  font-weight: bold;
+}
+
+.menucuonngang {
+  height: calc(100vh - 52px);
+}
+
+.logocom img {
+  height: 48px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.carousel-caption h1 {
+  font-size: 60px;
+}
+
+.carousel-caption p {
+  font-size: 30px;
+}
+
+.carousel-caption h1.text-color-change {
+  color: orange;
+}
+
+.carousel-inner .container {
+  position: absolute;
+  top: calc(50% + 100px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*--screen medium----*/
+@media screen and (max-width: 769px) {
+  .carousel-caption h1 {
+    font-size: 18px;
+  }
+  .carousel-caption p {
+    font-size: 9px;
+  }
+}
+
+span {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box {
+  padding: 60px 0px;
+  background: #eee;
+  margin-top: 241px;
+}
+
+.box-part {
+  background: #fff;
+  border-radius: 0;
+  padding: 60px 10px;
+  margin: 30px 0px;
+  border-radius: 15px;
+}
+.text {
+  margin: 20px 0px;
+}
+
+.fa {
+  color: #4183d7;
+}
+
+.listevent {
+  color: white;
+}
+
+.imgeff-container {
+  overflow-x: hidden;
+}
+#hinhscroll img {
+  display: block;
+}
+
+#hinhscroll {
+  display: block;
+  width: 100%;
+  background-color: #f3f3f3;
+  height: 400px;
+}
